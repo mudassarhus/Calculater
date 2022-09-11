@@ -1,8 +1,11 @@
 .container{
+    background: rgb(05, 40, 20);
+    color: #ffff;
     max-width: 400px;
     margin: 10vh auto 0 auto;
     box-shadow: 0 0 43px 17px rgba(153,153,153,1);
 }
+
 #display{
     text-align: right;
     height: 70px;
@@ -28,11 +31,11 @@
     cursor: pointer;
 }
 #equal{
-    background-color: rgb(29, 93, 203);
+    background-color: rgb(29, 02, 203);
     color: #ffff;
 }
 .button:hover{
-    color: #ffff;
-    background-color: rgb(41, 30, 30);
+    color: black;
+    background: white;
     transition: .5s all ease-in-out ;
 }
